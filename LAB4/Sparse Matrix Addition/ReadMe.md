@@ -10,6 +10,7 @@ we can use linked list to store <row, column, value> triplets of the non-zero el
 in a node of the linked list. Such a linked list will represent a sparse matrix.
 
 Input/Output Specification:
+
 -First two numbers will be dimensions (m X n) of the matrix
 -Third (n1) and fourth (n2) number will be number of non-zero elements of the sparse matrices A and B respectively. note that n1 and n2 can not be more than mxn.
 -From the fifth number, you will get row, column and value triplets.
@@ -23,27 +24,45 @@ Input/Output Specification:
 Note: You are not allowed to create any two dimentional array in solving this problem.
 
 Example
+
 Matrix A:
+
 0 0 0
+
 0 10 0
+
 1 0 0
 
 Matrix B:
+
 -1 0 0
+
 11 0 0
+
 0 0 20
 
 Input/Output for the above example:
 
 Input:
+
 3 3
+
 2 3
+
 1 1 10
+
 2 0 1
+
 0 0 -1
+
 1 0 11
+
 2 2 20
+
 Output:
+
 -1 0 0
+
 11 10 0
+
 1 0 20
